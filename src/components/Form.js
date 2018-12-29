@@ -4,7 +4,7 @@ import './form.css'
 
 const IndexPage = () => (
   <div className="form-wrapper">
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form action="/success" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field" />
       <div className="">
         <label htmlFor="name">Name</label>
