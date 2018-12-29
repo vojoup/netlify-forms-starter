@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
 const Success = (props) => (
   <Layout>
@@ -16,6 +17,7 @@ const Success = (props) => (
             <h1>Success/Thank You Page</h1>
           </header>
           <p>Thank you for contacting us!</p>
+          <Link to="/">Go back to homepage</Link>
         </div>
       </section>
     </div>
